@@ -67,7 +67,7 @@ function createPost() {
         console.log(
           res.affectedRows + " item posted!\n",
           "Item: " + userRes.item + "\n",
-          "Starting Bid: " + "$" + userRes.bid
+          "Starting Bid: $" + userRes.bid
         );
         init();
       }
